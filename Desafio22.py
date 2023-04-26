@@ -1,0 +1,7 @@
+n = str(input('Digite um nome inteiro: ')).strip()
+dividido = n.split()
+ns = len(n) - n.count(' ')
+print(f'Seu nome em maiuscula é {n.upper()}')
+print(f'Seu nome em minusculaa é {n.lower()}')
+print(f'Seu nome sem espaço tem {ns} caracteres')
+print(f'Seu nome tem {len(dividido[0])} no Primeiro nome')
